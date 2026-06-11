@@ -1,11 +1,5 @@
 {
   "keys": {
-    "e9ace9d12d67bbfd918975fcf0df1a19ed861c99125ec8d531f98c203cd9051b": {
-      "keyHash": "e9ace9d12d67bbfd918975fcf0df1a19ed861c99125ec8d531f98c203cd9051b",
-      "duration": "day",
-      "active": true,
-      "note": "day key 1"
-    },
     "9485d267257e83f3f0aabb153c507ac183013da05047105005d8df9ba8415892": {
       "keyHash": "9485d267257e83f3f0aabb153c507ac183013da05047105005d8df9ba8415892",
       "duration": "day",
