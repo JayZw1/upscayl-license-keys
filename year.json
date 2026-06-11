@@ -2,80 +2,60 @@
   "keys": {
     "acd232927100615cbe5dadfd9de9d682c14c6a0b94eaee820ed9a0bb9e56b654": {
       "keyHash": "acd232927100615cbe5dadfd9de9d682c14c6a0b94eaee820ed9a0bb9e56b654",
-      "createdAt": "2026-06-11T07:13:55Z",
-      "expiresAt": "2027-06-11T07:13:55Z",
       "duration": "year",
       "active": true,
       "note": "year key 1"
     },
     "a210232ab6bce27a9c2b4e4344be2f235708f2305b04c47713390bc3cdee3a98": {
       "keyHash": "a210232ab6bce27a9c2b4e4344be2f235708f2305b04c47713390bc3cdee3a98",
-      "createdAt": "2026-06-11T07:13:55Z",
-      "expiresAt": "2027-06-11T07:13:55Z",
       "duration": "year",
       "active": true,
       "note": "year key 2"
     },
     "1cf52d02641aa7390cda956720ad5e19e0c9c5e039e6c4351f17e92d5e4effd3": {
       "keyHash": "1cf52d02641aa7390cda956720ad5e19e0c9c5e039e6c4351f17e92d5e4effd3",
-      "createdAt": "2026-06-11T07:13:55Z",
-      "expiresAt": "2027-06-11T07:13:55Z",
       "duration": "year",
       "active": true,
       "note": "year key 3"
     },
     "11ccc49825eb5f6adf66de52344560c3304695400307cce238fdf73d1beb127e": {
       "keyHash": "11ccc49825eb5f6adf66de52344560c3304695400307cce238fdf73d1beb127e",
-      "createdAt": "2026-06-11T07:13:55Z",
-      "expiresAt": "2027-06-11T07:13:55Z",
       "duration": "year",
       "active": true,
       "note": "year key 4"
     },
     "dd71fcade053c6012d6b3bc3f57920df6464f0d93998f1ff284fbbf0c6f7039d": {
       "keyHash": "dd71fcade053c6012d6b3bc3f57920df6464f0d93998f1ff284fbbf0c6f7039d",
-      "createdAt": "2026-06-11T07:13:55Z",
-      "expiresAt": "2027-06-11T07:13:55Z",
       "duration": "year",
       "active": true,
       "note": "year key 5"
     },
     "c62fecd92bed9b86936ec3cd38512c61a6278e9b578cb9ccdac12e48d7369af4": {
       "keyHash": "c62fecd92bed9b86936ec3cd38512c61a6278e9b578cb9ccdac12e48d7369af4",
-      "createdAt": "2026-06-11T07:13:55Z",
-      "expiresAt": "2027-06-11T07:13:55Z",
       "duration": "year",
       "active": true,
       "note": "year key 6"
     },
     "2d58886292f1b35692cf31655fb7d4479d80c1485eea5b84c26d8a722556b2c5": {
       "keyHash": "2d58886292f1b35692cf31655fb7d4479d80c1485eea5b84c26d8a722556b2c5",
-      "createdAt": "2026-06-11T07:13:55Z",
-      "expiresAt": "2027-06-11T07:13:55Z",
       "duration": "year",
       "active": true,
       "note": "year key 7"
     },
     "49061c402c79cd418133fdffaf017cc9efa9f561c45267895509557445971735": {
       "keyHash": "49061c402c79cd418133fdffaf017cc9efa9f561c45267895509557445971735",
-      "createdAt": "2026-06-11T07:13:55Z",
-      "expiresAt": "2027-06-11T07:13:55Z",
       "duration": "year",
       "active": true,
       "note": "year key 8"
     },
     "d782c438e7d785ed21baf439e45d2f5160cddd898d616f950a9c2f256f8b75d1": {
       "keyHash": "d782c438e7d785ed21baf439e45d2f5160cddd898d616f950a9c2f256f8b75d1",
-      "createdAt": "2026-06-11T07:13:55Z",
-      "expiresAt": "2027-06-11T07:13:55Z",
       "duration": "year",
       "active": true,
       "note": "year key 9"
     },
     "e3151f382413fc44e516b262cc27d0482863f0e32e6306844153603a754a0cc6": {
       "keyHash": "e3151f382413fc44e516b262cc27d0482863f0e32e6306844153603a754a0cc6",
-      "createdAt": "2026-06-11T07:13:55Z",
-      "expiresAt": "2027-06-11T07:13:55Z",
       "duration": "year",
       "active": true,
       "note": "year key 10"

@@ -33,20 +33,6 @@ function Get-Sha256 {
   }
 }
 
-function Get-ExpiryIso {
-  param(
-    [datetime]$Start,
-    [string]$Duration
-  )
-
-  switch ($Duration) {
-    "day" { return $Start.AddDays(1).ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ") }
-    "month" { return $Start.AddMonths(1).ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ") }
-    "year" { return $Start.AddYears(1).ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ") }
-    "century" { return $Start.AddYears(100).ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ") }
-  }
-}
-
 $repoRoot = Split-Path -Parent $PSScriptRoot
 $jsonPath = Join-Path $repoRoot "$Duration.json"
 
@@ -54,7 +40,6 @@ if (-not $Key) {
   $Key = New-RandomLicenseKey -Duration $Duration
 }
 
-$createdAt = [datetime]::UtcNow
 $keyHash = Get-Sha256 -Text $Key.Trim()
 $data = Get-Content -LiteralPath $jsonPath -Raw | ConvertFrom-Json
 
@@ -64,8 +49,6 @@ if (-not $data.keys) {
 
 $record = [ordered]@{
   keyHash = $keyHash
-  createdAt = $createdAt.ToString("yyyy-MM-ddTHH:mm:ssZ")
-  expiresAt = Get-ExpiryIso -Start $createdAt -Duration $Duration
   duration = $Duration
   active = $true
   note = $Note
@@ -76,5 +59,5 @@ $data | ConvertTo-Json -Depth 10 | Set-Content -LiteralPath $jsonPath -Encoding 
 
 Write-Output "已生成 $Duration 密钥"
 Write-Output "真实密钥: $Key"
-Write-Output "到期时间: $($record.expiresAt)"
+Write-Output "计时方式: 第一次成功使用后开始计算 $Duration"
 Write-Output "已写入: $jsonPath"
